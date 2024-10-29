@@ -21,7 +21,7 @@ const connectionDb = async () => {
       if (result) {
         console.log("database connected successfully");
         app.listen(process.env.PORT||5000, () => {
-          console.log(`server is listening at port${5000}`);
+          console.log(`server is listening at port${PORT}`);
         });
       }
     
